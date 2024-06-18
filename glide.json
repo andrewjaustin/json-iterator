@@ -1,0 +1,28 @@
+[
+  {
+    "kind": "column",
+    "name": "JSON Iterator",
+    "description": "Iterates a quantity value from an single JSON object into multiple JSON objects.",
+    "author": "Andrew Austin <andrewjaustin@me.com>",
+    "params": [
+      {
+        "name": "string",
+        "displayName": "String",
+        "type": "string"
+      },
+      {
+        "name": "start",
+        "displayName": "Start index",
+        "type": "number"
+      },
+      {
+        "name": "end",
+        "displayName": "End index",
+        "type": "number"
+      }
+    ],
+    "result": {
+      "type": "array"
+    }
+  }
+]
