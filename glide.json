@@ -6,19 +6,9 @@
     "author": "Andrew Austin <andrewjaustin@me.com>",
     "params": [
       {
-        "name": "string",
-        "displayName": "String",
+        "name": "single",
+        "displayName": "Bus Int / JSON",
         "type": "string"
-      },
-      {
-        "name": "start",
-        "displayName": "Start index",
-        "type": "number"
-      },
-      {
-        "name": "end",
-        "displayName": "End index",
-        "type": "number"
       }
     ],
     "result": {
