@@ -1,5 +1,7 @@
 window.function = function (p1) {
 
+p1 = p1.value;
+  
 function parseCart() {
   let initialObject = JSON.parse(p1);
   let outputObjects = [];
