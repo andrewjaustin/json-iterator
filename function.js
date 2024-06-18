@@ -1,9 +1,4 @@
-function runParseCart() {
-  if (!p2) {
-    return;
-  }
-  return parseCart();
-}
+window.function = function (p1) {
 
 function parseCart() {
   let initialObject = JSON.parse(p1);
